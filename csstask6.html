@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My First Styled Page</title>
+  <style>
+    body {
+      margin: 2em;
+      font-family: Georgia, serif;
+      background-color: #dcdc5d;
+      color: #000;
+    }
+
+    h1 {
+      color: purple;
+      font-size: 2em;
+      margin-top: 0;
+    }
+
+    p {
+      margin: 1em 0;
+      width: 70%;
+    }
+
+    em {
+      color: #666;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    nav {
+      width: 150px;
+      margin-right: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav li {
+      margin-bottom: 1em;
+    }
+
+    nav a {
+      text-decoration: none;
+      background-color: white;
+      padding: 5px 10px;
+      display: inline-block;
+      border-left: 10px solid black;
+      color: blue;
+    }
+
+    article {
+      flex: 1;
+      border-left: 1px solid gray;
+      padding-left: 20px;
+    }
+
+    hr {
+      margin: 2em 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#">Home page</a></li>
+        <li><a href="#">Musings</a></li>
+        <li><a href="#">My town</a></li>
+        <li><a href="#">Links</a></li>
+      </ul>
+    </nav>
+
+    <article>
+      <h1>My first styled page</h1>
+      <p>Welcome to my styled page!</p>
+      <p>It lacks images, but at least it has style. And it has links, even if they don’t go anywhere...</p>
+      <p>There should be more here, but I don’t know what yet.</p>
+      <hr>
+      <p><em>Made 5 April 2004<br>by myself.</em></p>
+    </article>
+  </div>
+
+</body>
+</html>
